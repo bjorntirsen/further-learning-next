@@ -47,6 +47,7 @@ const HomePage = (props) => {
 // this is faster
 export async function getStaticProps() {
   // fetch data from an api
+
   return {
     props: {
       meetups: DUMMY_MEETUPS,
